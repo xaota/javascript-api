@@ -40,6 +40,8 @@ const wrap = {
         body
       };
       const response = await fetch(url, options);
-      return response.json();
+      const result   = await response.json();
+      if (response.ok) return result;
+      throw result;
     }
   }

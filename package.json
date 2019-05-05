@@ -1,6 +1,7 @@
 {
-  "name": "javascript-api",
-  "version": "1.0.0",
+  "name": "javascript-fetch-api",
+  "type": "module",
+  "version": "1.1.0",
   "description": "fetch post api wrapper",
   "main": "index.js",
   "scripts": {
