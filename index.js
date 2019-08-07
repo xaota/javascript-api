@@ -44,4 +44,11 @@ const wrap = {
       if (response.ok) return result;
       throw result;
     }
+
+  /** */
+    static async json(url) {
+      return await fetch(url)
+        .then(response => response.text())
+        .then(text => JSON.parse(text));
+    }
   }
