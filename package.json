@@ -1,7 +1,7 @@
 {
   "name": "javascript-fetch-api",
   "type": "module",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "fetch post api wrapper",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xaota/javascript-api.git"
+    "url": "git+https://github.com/xaota/javascript-fetch-api.git"
   },
   "keywords": [
     "api",
@@ -21,10 +21,11 @@
   "author": "https://github.com/xaota",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/xaota/javascript-api/issues"
+    "url": "https://github.com/xaota/javascript-fetch-api/issues"
   },
-  "homepage": "https://github.com/xaota/javascript-api#readme",
+  "homepage": "https://github.com/xaota/javascript-fetch-api#readme",
   "devDependencies": {
-    "babel-eslint": "^10.0.1"
+    "eslint": "^6.3.0",
+    "babel-eslint": "^10.0.2"
   }
 }
